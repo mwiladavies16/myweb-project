@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+</head>
+<link rel="stylesheet" href="css/styles.css">
+
+<body>
+    <!-- Header-->
+    <header>
+        <h1>Welcome to the world of Web Programming</h1>
+    </header>
+    <!--Navigator -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#learning">My Learning Plan</a></li>
+            <li><a href="#photos">My Photos</a></li>
+            <li><a href="#media">My Media</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#http://developer.mozilla.org/en-US/docs/Learn" target="_blank">Learn Web Development(MDN)</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Main Content -->
+    <main>
+        <!-- About Me -->
+        < id="about">
+            <h2>About Me</h2>
+            <p>I am Davies, a student in ICT251 Web Technologies. I enjoy learning how websites are structured and
+                sytled, and I am motivated to improve my skills in HTML, CSS, and Java Script. My goal is to build
+                creative, functional and user-friendly web pages that reflect both technical knowledge and design
+                thinking. I believe web development is a powerful way to share ideas and connect with people across the
+                world.</p>
+            </section>
+            <!-- Hobbies -->
+            <section id="hobbies">
+                <ul>My HOBBIES</ul>
+                <ul>
+                    <li>Watching Football</li>
+                    <li>Listening to Music</li>
+                    <li>Watching Movies</li>
+                    <li>Reading Technology Articles</li>
+                </ul>
+            </section>
+            <!-- Learning Plan -->
+            <="learning">
+                <h2>My Learning Plan</h2>
+                <li>Practice HTML and CSS daily</li>
+                <li>Study JavaScript Fundamentals</li>
+                <li>Complete online tutorials on reponsive design.</li>
+                </ol>
+                <tbody>
+                    <caption>Weekly Learning Plan</caption>
+                    <thread>
+                        <tr>
+                            <th>Day</th>
+                            <th>Topic</th>
+                            <th>Practice Task</th>
+                        </tr>
+                    </thread>
+                </tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>HTML Basics</td>
+                    <td>Create a simple webpage with headings, paragraphs, and lists.</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>CSS Basics</td>
+                    <td>Style the webpage with colors, fonts, and layouts.</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>JavaScript Fundamentals</td>
+                    <td>Write a simple script to manipulate webpage elements.</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Responsive Design</td>
+                    <td>Make the webpage responsive for different screen sizes.</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Project Work</td>
+                    <td>Combine HTML, CSS, and JavaScript to create a small project.</td>
+                </tr>
+                </tbody>
+                </table>
+                </section>
+                <!-- Photos -->
+                <id="photos">
+                    <h2>My Photos</h2>
+                    <figure>
+                        <img src="images/Photo1.jpeg" alt="Photo 1">
+                        <figcaption>Favoured by Gods Grace.</figcaption>
+                    </figure>
+                    <img src="images/Photo2.jpeg" alt="Photo 2">
+                    <figcaption>Fresh Oil over me.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/Photo3.jpeg" alt="Photo 3">
+                        <figcaption>One day Fikapanga Sense.</figcaption>
+                    </figure>
+                    </section>
+                    <!-- Media -->
+                    <section id="media">
+                        <h2>My Media</h2>
+                        <!-- Video-->
+                        <video src="videos/intro.mp4" controls></video>
+                        <p>This video introduces me: I share my name, my programme of study, and one web skill I hope to
+                            learn
+                            Summary: Iam Davies, studying ICT251 Web Technologies. I want to improve my skills in
+                            responsive web design.
+                        </p>
+                        <!-- Audio -->
+                        <audio src="videos/voice.aac" controls></audio>
+                        <p>This audio clip describes one of my hobbies. I talk about my passion for music and how it
+                            influences my web development journey.</p>
+                    </section>
+
+                    <!-- Contact -->
+                    <section id="contact">
+                        <h2>Contact</h2>
+                        <form action="#" method="post">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                        <p>em>Note: This form does not send data;it is for practice only.</em></p>
+                    </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My First Web Page. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+
+/* Element selector for body */
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+background-color: #f9f9f9;
+color: #333;
+}
+
+/* Header styling */
+body {
+background-color: lightblue; /* or use a hex code like #add8e6 */
+font-family: Arial, Helvetica, sans-serif;
+color: #333;
+}
+
+
+header h1 {
+margin: 0;
+font-size: 2em;
+}
+
+/* Navigation styling */
+nav {
+background-color: #006699;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+}
+
+nav ul li {
+margin: 0;
+}
+
+nav ul li a {
+display: block;
+padding: 12px 20px;
+color: #fff;
+text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+background-color: #004466;
+}
+
+/* Main sections */
+main {
+padding: 20px;
+}
+
+section {
+margin-bottom: 30px;
+padding: 15px;
+background-color: #fff;
+border: 1px solid #ddd;
+}
+
+/* Class selector for repeated sections */
+.section-box {
+border: 2px solid #006699;
+padding: 20px;
+margin-bottom: 20px;
+}
+
+/* Unique id selector for contact section */
+#contact {
+background-color: #eef7fa;
+border: 2px solid #004466;
+}
+
+/* Headings */
+h2 {
+color: #004466;
+border-bottom: 2px solid #006699;
+padding-bottom: 5px;
+}
+
+/* Photo gallery */
+#photos figure {
+display: inline-block;
+width: 30%;
+margin: 1%;
+text-align: center;
+}
+
+#photos img {
+max-width: 100%;
+height: auto;
+border: 2px solid #ccc;
+border-radius: 4px;
+}
+
+/* Media players */
+video, audio {
+display: block;
+margin: 10px 0;
+max-width: 100%;
+height: auto;
+}
+
+/* Table styling */
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 15px;
+}
+
+caption {
+font-weight: bold;
+margin-bottom: 8px;
+}
+
+th, td {
+border: 1px solid #ccc;
+padding: 10px;
+text-align: left;
+}
+
+th {
+background-color: #006699;
+color: #fff;
+}
+
+/* Form styling */
+form {
+display: flex;
+flex-direction: column;
+}
+
+label {
+margin-top: 10px;
+font-weight: bold;
+}
+
+input, textarea, button {
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+button {
+background-color: #006699;
+color: #fff;
+cursor: pointer;
+margin-top: 15px;
+}
+
+button:hover,
+button:focus {
+background-color: #004466;
+}
+
+/* Footer */
+footer {
+background-color: #004466;
+color: #fff;
+text-align
